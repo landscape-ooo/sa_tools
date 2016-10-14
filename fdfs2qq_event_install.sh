@@ -20,9 +20,9 @@ echo /usr/local/webserver/libevent2/lib   >> /etc/ld.so.conf
 
 ##############exe
 cd /tmp
-wget -O fdfs2qq_mong.tar  https://github.com/gjpicker/bplustree_datax/archive/lib_event.zip
+wget -O fdfs2qq_mong.tar  https://github.com/gjpicker/bplustree_datax/archive/master.zip
 unzip -o fdfs2qq_mong.tar
-cd  bplustree_datax-lib_event
+cd  bplustree_datax-master
 make
 make install 
 make clean 
