@@ -39,7 +39,7 @@ echo /usr/local/webserver/mongo-c-driver/lib   >> /etc/ld.so.conf
 cd /tmp
 wget -O fdfs2qq_mong.tar  https://github.com/gjpicker/bplustree_datax/archive/lib_mongo.zip
 unzip -o fdfs2qq_mong.tar
-cd  bplustree_datax-master
+cd  bplustree_datax-lib_mongo
 make
 make install 
 make clean 
