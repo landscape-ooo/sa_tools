@@ -1,4 +1,9 @@
 #!/bin/env sh
+######yum
+
+
+yum install   -y gcc44 gcc44-c++.x86_64  
+
 
 ############libevent
 ###download
